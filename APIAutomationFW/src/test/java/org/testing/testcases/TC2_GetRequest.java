@@ -21,7 +21,7 @@ public class TC2_GetRequest {
 			HttpMethods http = new HttpMethods(pr);
 Response res =	http.getRequest("QA_URI",TC1_PostRequest.responseIdValue);
  	
-
+System.out.println("change ");
 
 System.out.println("Response code is" + res.getStatusCode());
 	
